@@ -1,0 +1,31 @@
+SPECIFICATIONS:
+
+NMOS
+model: nmos of analogLib
+width: 400nm
+fingerwidth: 400nm
+length: 180nm
+finger number:1
+source to drain metal width: 400nm
+
+
+PMOS
+model: pmos of analogLib
+width: 800nm
+fingerwidth: 800nm
+length: 180nm
+finger number:1
+source to drain metal width: 800nm
+
+
+AC VOLTTAGE SOURCE
+model: vpulse of analogLib
+voltage1= 0V
+voltage2= 1.8V
+period= 1 us
+pulse width= 0.5 us
+
+
+ANALYSIS DONE:
+transient analysis for 10 us of the ircuits is done. 
+input and output wire are plotted
